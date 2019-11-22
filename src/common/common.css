@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #dae1f1;
+}
+
+@font-face {
+	font-family: texticons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('//at.alicdn.com/t/font_1478644_nd7atxs7p2.ttf') format('truetype')
+		/* src: url('http://kaikaiomg-kaikaiomg.stor.sinaapp.com/iconfont.ttf') format('truetype'); */
+		/* src: url('../static/iconfont.ttf') format('truetype'); */
+}
+
+.icontext {
+	font-family: texticons;
+}
+
+/* 	::-webkit-scrollbar {
+width: 0px;
+	}
+ */
+/*颜色*/
+.red {
+	color: red;
+}
+
+.Gold {
+	color: Gold;
+}
+
+.orange {
+	color: orange;
+}
+
+.purple {
+	color: purple;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.green {
+	color: green;
+}
+
+.grey {
+	color: grey;
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.bac_white {
+	background-color: white;
+}
+
+.bac_red {
+	background-color: red;
+}
+
+.bac_blue {
+	background-color: blue;
+}
+
+.bac_blue_q {
+	background-color: LightSkyBlue;
+}
+
+.bac_purple {
+	background-color: purple;
+}
+
+.bac_purple_q {
+	background-color: Plum;
+}
+
+.bac_SeaGreen {
+	background-color: SeaGreen;
+}
+
+.bac_yellow {
+	background-color: yellow;
+}
+
+.bac_grey {
+	background-color: grey;
+}
+
+.bac_orange {
+	background-color: orange;
+}
+
+.bac_pink {
+	background-color: pink;
+}
+
+.bac_green {
+	background-color: SpringGreen;
+}
+
+.bac_brown {
+	background-color: Sienna;
+}
+
+.bac_SkyBlue {
+	background-color: SkyBlue;
+}
+
+.bac_danlan {
+	background-color: #00FFFF;
+}
+
+.bac_white1 {
+	background-color: #F8F8F8;
+}
+
+.bac_mainblue {
+	background-color: #dae1f1;
+}
+
+.border8 {
+	border-radius: 8px;
+}
+
+
+
+
+.left_menu_1 {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 92%;
+	margin: 0px 1% 0 7%;
+	background-color: white;
+	height: 60px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.left_menu_2 {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 92%;
+	margin: 0px 1% 0 7%;
+	background-color: white;
+	overflow-y: scroll;
+}
+
+.left_menu_3 {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 92%;
+	margin: 0px 1% 0 7%;
+	background-color: white;
+	height: 60px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.right_menu {
+
+	flex-flow: column nowrap;
+	margin: 0 5% 0 1%;
+	width: 88%;
+	font-size: 13px;
+	background-color: white;
+	padding: 50px 4%;
+
+}
+
+.topnav_box::-webkit-scrollbar{
+	width: 5px;
+	height: 10px;
+	background-color: red;
+}
+.topnav_box::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: grey;
+}
+
+.topnav_box::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #e7eeff;
+}
+
+
+
+/* 登录 */
