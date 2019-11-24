@@ -1,0 +1,1 @@
+E:\go\Nginx-Plus\bin\Nginx-Plus.exe -conf E:\go\Nginx-Plus\bin\conf.ini
